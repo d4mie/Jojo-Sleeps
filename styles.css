@@ -114,8 +114,8 @@ body, html {
 /* Work Grid Section */
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two items per row */
-  gap: 10px; /* Spacing between items */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; 
   padding: 10px;
   background-color: black;
 }
@@ -137,9 +137,9 @@ body, html {
 
 .work-image {
   width: 100%;
-  height: auto; /* Maintain aspect ratio */
+  height: 404px; 
   max-width: 100%;
-  object-fit: cover; /* Ensures the image fills the grid item without distortion */
+  object-fit: cover; 
   transition: filter 0.3s ease;
   image-rendering: crisp-edges;
 }
