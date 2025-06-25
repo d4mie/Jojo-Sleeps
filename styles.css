@@ -55,7 +55,7 @@ body, html {
 .hero {
   position: relative;
   height: 100vh;
-  background: url('images-resized/car-show.jpeg') no-repeat center center/cover;
+  background: url('images/car-show.jpeg') no-repeat center center/cover;
   image-rendering: crisp-edges;
 }
 
